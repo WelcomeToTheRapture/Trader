@@ -3,3 +3,5 @@ djangorestframework>=3.4.3
 pytz
 tox
 flake8
+python-telegram-bot
+telegram
