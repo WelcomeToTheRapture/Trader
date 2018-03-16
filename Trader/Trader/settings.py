@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Telegram Token
+TOKEN = "518166944:AAFzE8juLrHHp8nbujgBxjfSFlJ9TC1Xvkk"
 
 # Application definition
 
@@ -38,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'API',
+    'API.Telegram.telegram_bot.TelegramBotConfig',
 ]
 
 MIDDLEWARE = [
